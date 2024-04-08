@@ -14,10 +14,3 @@ The main objectives of this project are:
 4. **Model Evaluation**: Assess the performance of the trained models using appropriate evaluation metrics, such as accuracy, precision, recall, and F1-score.
 
 Following this, the main research question was to explore whether the text length of the abstract has an effect on the classification performance and how this would differ across different models. As such, each model is subjected to truncated abstracts, assessing the performance of the classification task at incremental text lengths
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/arxiv-data-classification.git
