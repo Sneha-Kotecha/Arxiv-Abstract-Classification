@@ -1,0 +1,685 @@
+
+Train set size: 20570
+Dev set size: 5143
+Test set size: 6429
+Counter({'Mathematics': 5357, 'Computer Science': 5357, 'Physics': 5357, 'Quantitative Finance': 5357, 'Statistics': 5357, 'Quantitative Biology': 5357})
+Train set size: 20570
+Dev set size: 5143
+Test set size: 6429
+The F1 score for the random baseline is:  0.16425687287689567
+Category: Mathematics
+the: 33260
+of: 27319
+a: 17199
+and: 12143
+in: 11234
+
+Category: Computer Science
+the: 50962
+of: 32388
+a: 22344
+and: 22011
+to: 19625
+
+Category: Physics
+the: 62350
+of: 34443
+and: 19505
+a: 18351
+in: 17194
+
+Category: Quantitative Finance
+the: 54215
+of: 32216
+and: 19272
+a: 19184
+in: 15395
+
+Category: Statistics
+the: 53058
+of: 33099
+a: 20641
+and: 19542
+to: 16984
+
+Category: Quantitative Biology
+the: 58519
+of: 43042
+and: 23790
+a: 21827
+in: 20551
+
+Category: Mathematics
+of the: 6587
+in the: 2573
+of a: 2111
+on the: 1689
+for the: 1657
+
+Category: Computer Science
+of the: 7368
+in the: 3498
+in this: 2575
+this paper: 2514
+on the: 2247
+
+Category: Physics
+of the: 11367
+in the: 5750
+to the: 3025
+for the: 2477
+on the: 2310
+
+Category: Quantitative Finance
+of the: 9033
+in the: 4176
+for the: 2499
+to the: 2455
+on the: 2355
+
+Category: Statistics
+of the: 9502
+in the: 3702
+for the: 2458
+on the: 2377
+to the: 2195
+
+Category: Quantitative Biology
+of the: 9598
+in the: 4885
+to the: 2482
+on the: 2378
+of a: 2091
+
+{'Computer Science': 0.16666666666666666, 'Mathematics': 0.16666666666666666, 'Physics': 0.16666666666666666, 'Quantitative Finance': 0.16666666666666666, 'Statistics': 0.16666666666666666, 'Quantitative Biology': 0.16666666666666666}
+Our classifier is 83.11% accurate on the test set
+The precision for category Computer Science is 79.25%
+The precision for category Mathematics is 80.52%
+The precision for category Physics is 91.35%
+The precision for category Quantitative Finance is 87.17%
+The precision for category Statistics is 79.30%
+The precision for category Quantitative Biology is 82.08%
+The average precision is 83.28%
+The recall for category Computer Science is 79.18%
+The recall for category Mathematics is 84.23%
+The recall for category Physics is 83.43%
+The recall for category Quantitative Finance is 87.41%
+The recall for category Statistics is 81.71%
+The recall for category Quantitative Biology is 82.67%
+The recall precision is 83.10%
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      79.25%     79.18%  79.22%
+Mathematics           80.52%     84.23%  82.33%
+Physics               91.35%     83.43%  87.21%
+Quantitative Finance  87.17%     87.41%  87.29%
+Statistics            79.30%     81.71%  80.49%
+Quantitative Biology  82.08%     82.67%  82.37%
+--------------------  ---------  ------  --------
+Accuracy: 83.11%
+Macro F1-score: 83.15%
+
+
+
+Our classifier is 90.43% accurate on the test set
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.77%     85.99%  87.84%
+Mathematics           86.14%     89.30%  87.69%
+Physics               96.15%     90.29%  93.12%
+Quantitative Finance  92.01%     93.80%  92.89%
+Statistics            85.13%     90.05%  87.52%
+Quantitative Biology  94.07%     93.05%  93.56%
+--------------------  ---------  ------  --------
+Accuracy: 90.43%
+Macro F1-score: 90.44%
+
+
+
+Naive Bayes Unigrams Unsmoothed
+
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      75.28%     74.51%  74.89%
+Mathematics           77.78%     82.82%  80.22%
+Physics               88.76%     77.43%  82.71%
+Quantitative Finance  84.32%     84.63%  84.47%
+Statistics            77.42%     72.80%  75.04%
+Quantitative Biology  73.69%     82.67%  77.92%
+--------------------  ---------  ------  --------
+Accuracy: 79.19%
+Macro F1-score: 79.21%
+
+
+
+Abstract length: 50
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      76.15%     75.44%  75.80%
+Mathematics           79.10%     83.85%  81.40%
+Physics               89.38%     79.33%  84.06%
+Quantitative Finance  85.52%     85.28%  85.40%
+Statistics            77.45%     74.22%  75.80%
+Quantitative Biology  75.64%     83.21%  79.24%
+--------------------  ---------  ------  --------
+Accuracy: 80.26%
+Macro F1-score: 80.28%
+
+
+
+Abstract length: 60
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      76.89%     75.82%  76.35%
+Mathematics           79.11%     83.57%  81.28%
+Physics               89.57%     80.95%  85.04%
+Quantitative Finance  86.03%     86.11%  86.07%
+Statistics            77.66%     74.79%  76.20%
+Quantitative Biology  76.62%     83.12%  79.74%
+--------------------  ---------  ------  --------
+Accuracy: 80.76%
+Macro F1-score: 80.78%
+
+
+
+Abstract length: 70
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      77.43%     76.56%  77.00%
+Mathematics           79.05%     83.94%  81.42%
+Physics               89.07%     81.52%  85.13%
+Quantitative Finance  86.72%     86.48%  86.60%
+Statistics            78.12%     75.83%  76.96%
+Quantitative Biology  77.99%     82.85%  80.35%
+--------------------  ---------  ------  --------
+Accuracy: 81.23%
+Macro F1-score: 81.24%
+
+
+
+Abstract length: 80
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      77.25%     76.10%  76.67%
+Mathematics           78.63%     83.94%  81.20%
+Physics               89.39%     82.67%  85.90%
+Quantitative Finance  86.93%     86.20%  86.56%
+Statistics            78.55%     77.06%  77.80%
+Quantitative Biology  78.71%     82.40%  80.51%
+--------------------  ---------  ------  --------
+Accuracy: 81.41%
+Macro F1-score: 81.44%
+
+
+
+Abstract length: 90
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      77.99%     76.75%  77.36%
+Mathematics           78.73%     84.13%  81.34%
+Physics               89.81%     82.29%  85.88%
+Quantitative Finance  86.25%     85.93%  86.09%
+Statistics            79.13%     78.01%  78.57%
+Quantitative Biology  78.86%     82.49%  80.64%
+--------------------  ---------  ------  --------
+Accuracy: 81.61%
+Macro F1-score: 81.65%
+
+
+
+Abstract length: 100
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.09%     77.22%  77.65%
+Mathematics           79.19%     83.94%  81.49%
+Physics               90.20%     82.38%  86.11%
+Quantitative Finance  86.43%     86.11%  86.27%
+Statistics            79.10%     78.58%  78.84%
+Quantitative Biology  79.27%     82.85%  81.02%
+--------------------  ---------  ------  --------
+Accuracy: 81.86%
+Macro F1-score: 81.90%
+
+
+
+Abstract length: 110
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.56%     77.31%  77.93%
+Mathematics           79.20%     84.04%  81.55%
+Physics               89.94%     82.57%  86.10%
+Quantitative Finance  87.01%     86.20%  86.60%
+Statistics            78.76%     79.43%  79.09%
+Quantitative Biology  79.95%     82.76%  81.33%
+--------------------  ---------  ------  --------
+Accuracy: 82.07%
+Macro F1-score: 82.10%
+
+
+
+Abstract length: 120
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.90%     77.50%  78.19%
+Mathematics           79.50%     84.13%  81.75%
+Physics               90.34%     82.86%  86.44%
+Quantitative Finance  87.07%     86.67%  86.87%
+Statistics            79.21%     80.19%  79.70%
+Quantitative Biology  80.07%     82.67%  81.35%
+--------------------  ---------  ------  --------
+Accuracy: 82.35%
+Macro F1-score: 82.38%
+
+
+
+Abstract length: 130
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.79%     77.68%  78.23%
+Mathematics           79.40%     83.94%  81.61%
+Physics               90.55%     83.05%  86.64%
+Quantitative Finance  87.08%     86.11%  86.59%
+Statistics            78.25%     80.47%  79.35%
+Quantitative Biology  80.64%     82.31%  81.46%
+--------------------  ---------  ------  --------
+Accuracy: 82.27%
+Macro F1-score: 82.31%
+
+
+
+Abstract length: 140
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.81%     77.78%  78.29%
+Mathematics           79.77%     84.04%  81.85%
+Physics               90.35%     82.95%  86.49%
+Quantitative Finance  87.03%     86.94%  86.98%
+Statistics            78.56%     80.95%  79.74%
+Quantitative Biology  81.25%     82.13%  81.69%
+--------------------  ---------  ------  --------
+Accuracy: 82.47%
+Macro F1-score: 82.51%
+
+
+
+Abstract length: 150
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      78.69%     78.62%  78.65%
+Mathematics           80.13%     84.04%  82.03%
+Physics               90.53%     83.81%  87.04%
+Quantitative Finance  86.94%     86.94%  86.94%
+Statistics            78.84%     80.85%  79.83%
+Quantitative Biology  82.04%     82.04%  82.04%
+--------------------  ---------  ------  --------
+Accuracy: 82.72%
+Macro F1-score: 82.76%
+
+
+
+Abstract length: 160
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      79.15%     78.71%  78.93%
+Mathematics           79.91%     84.04%  81.92%
+Physics               90.93%     84.00%  87.33%
+Quantitative Finance  87.03%     86.94%  86.98%
+Statistics            79.06%     81.23%  80.13%
+Quantitative Biology  82.09%     82.31%  82.20%
+--------------------  ---------  ------  --------
+Accuracy: 82.87%
+Macro F1-score: 82.92%
+
+
+
+Abstract length: 170
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      79.27%     78.90%  79.08%
+Mathematics           79.84%     84.04%  81.88%
+Physics               90.72%     83.81%  87.13%
+Quantitative Finance  87.05%     87.13%  87.09%
+Statistics            79.61%     81.42%  80.51%
+Quantitative Biology  82.19%     82.49%  82.34%
+--------------------  ---------  ------  --------
+Accuracy: 82.97%
+Macro F1-score: 83.01%
+
+
+
+Abstract length: 180
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      79.05%     78.90%  78.97%
+Mathematics           80.14%     84.13%  82.09%
+Physics               91.37%     83.71%  87.38%
+Quantitative Finance  87.25%     87.41%  87.33%
+Statistics            79.54%     81.80%  80.65%
+Quantitative Biology  82.30%     82.67%  82.49%
+--------------------  ---------  ------  --------
+Accuracy: 83.11%
+Macro F1-score: 83.15%
+
+
+
+Abstract length: 190
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      79.25%     78.80%  79.03%
+Mathematics           80.32%     84.32%  82.27%
+Physics               91.10%     83.81%  87.30%
+Quantitative Finance  86.92%     87.41%  87.17%
+Statistics            79.69%     81.80%  80.73%
+Quantitative Biology  82.09%     82.31%  82.20%
+--------------------  ---------  ------  --------
+Accuracy: 83.08%
+Macro F1-score: 83.12%
+
+
+
+Abstract length: 200
+Classification Report:
+None
+Naive Bayes Unigrams with Smoothing:
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      85.62%     81.70%  83.61%
+Mathematics           83.36%     87.98%  85.61%
+Physics               94.39%     88.19%  91.19%
+Quantitative Finance  90.54%     92.13%  91.33%
+Statistics            83.56%     81.90%  82.72%
+Quantitative Biology  88.11%     92.96%  90.47%
+--------------------  ---------  ------  --------
+Accuracy: 87.53%
+Macro F1-score: 87.49%
+
+
+
+Abstract length: 50
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      86.72%     81.70%  84.13%
+Mathematics           83.82%     88.54%  86.12%
+Physics               94.26%     89.14%  91.63%
+Quantitative Finance  90.90%     92.50%  91.69%
+Statistics            84.41%     84.17%  84.29%
+Quantitative Biology  89.75%     93.23%  91.46%
+--------------------  ---------  ------  --------
+Accuracy: 88.26%
+Macro F1-score: 88.22%
+
+
+
+Abstract length: 60
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      87.24%     83.01%  85.07%
+Mathematics           84.05%     88.54%  86.24%
+Physics               94.81%     88.76%  91.69%
+Quantitative Finance  90.82%     92.50%  91.65%
+Statistics            83.44%     85.02%  84.23%
+Quantitative Biology  90.80%     92.60%  91.69%
+--------------------  ---------  ------  --------
+Accuracy: 88.44%
+Macro F1-score: 88.43%
+
+
+
+Abstract length: 70
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      87.61%     83.19%  85.34%
+Mathematics           84.03%     88.45%  86.18%
+Physics               95.07%     90.00%  92.47%
+Quantitative Finance  91.51%     92.78%  92.14%
+Statistics            84.03%     85.78%  84.90%
+Quantitative Biology  90.84%     92.24%  91.54%
+--------------------  ---------  ------  --------
+Accuracy: 88.77%
+Macro F1-score: 88.76%
+
+
+
+Abstract length: 80
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      87.65%     83.47%  85.51%
+Mathematics           84.05%     88.54%  86.24%
+Physics               94.86%     89.71%  92.22%
+Quantitative Finance  91.95%     93.06%  92.50%
+Statistics            84.62%     86.07%  85.34%
+Quantitative Biology  91.13%     92.78%  91.95%
+--------------------  ---------  ------  --------
+Accuracy: 88.97%
+Macro F1-score: 88.96%
+
+
+
+Abstract length: 90
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      87.94%     83.75%  85.80%
+Mathematics           84.57%     89.01%  86.73%
+Physics               95.14%     89.52%  92.25%
+Quantitative Finance  91.79%     93.15%  92.46%
+Statistics            84.64%     86.73%  85.67%
+Quantitative Biology  91.54%     92.78%  92.16%
+--------------------  ---------  ------  --------
+Accuracy: 89.19%
+Macro F1-score: 89.18%
+
+
+
+Abstract length: 100
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      87.97%     84.69%  86.30%
+Mathematics           85.07%     88.83%  86.91%
+Physics               95.37%     90.19%  92.71%
+Quantitative Finance  91.87%     93.15%  92.51%
+Statistics            84.57%     87.77%  86.14%
+Quantitative Biology  92.57%     92.15%  92.36%
+--------------------  ---------  ------  --------
+Accuracy: 89.49%
+Macro F1-score: 89.49%
+
+
+
+Abstract length: 110
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      88.57%     85.34%  86.92%
+Mathematics           85.42%     89.11%  87.22%
+Physics               95.46%     90.10%  92.70%
+Quantitative Finance  92.02%     92.87%  92.44%
+Statistics            84.74%     88.44%  86.55%
+Quantitative Biology  92.75%     92.42%  92.59%
+--------------------  ---------  ------  --------
+Accuracy: 89.73%
+Macro F1-score: 89.74%
+
+
+
+Abstract length: 120
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      88.65%     85.34%  86.96%
+Mathematics           85.52%     89.30%  87.37%
+Physics               95.75%     90.10%  92.84%
+Quantitative Finance  91.97%     93.33%  92.65%
+Statistics            84.54%     88.63%  86.53%
+Quantitative Biology  93.07%     92.06%  92.56%
+--------------------  ---------  ------  --------
+Accuracy: 89.81%
+Macro F1-score: 89.82%
+
+
+
+Abstract length: 130
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      88.39%     85.34%  86.84%
+Mathematics           85.87%     89.01%  87.41%
+Physics               95.56%     90.29%  92.85%
+Quantitative Finance  92.08%     93.70%  92.89%
+Statistics            84.68%     88.53%  86.56%
+Quantitative Biology  93.07%     92.15%  92.61%
+--------------------  ---------  ------  --------
+Accuracy: 89.86%
+Macro F1-score: 89.86%
+
+
+
+Abstract length: 140
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      88.83%     85.43%  87.10%
+Mathematics           85.96%     89.11%  87.51%
+Physics               95.96%     90.38%  93.08%
+Quantitative Finance  92.02%     93.98%  92.99%
+Statistics            84.96%     88.91%  86.89%
+Quantitative Biology  93.27%     92.51%  92.89%
+--------------------  ---------  ------  --------
+Accuracy: 90.08%
+Macro F1-score: 90.08%
+
+
+
+Abstract length: 150
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.22%     85.81%  87.48%
+Mathematics           85.87%     89.01%  87.41%
+Physics               95.94%     90.10%  92.93%
+Quantitative Finance  91.92%     93.70%  92.80%
+Statistics            84.70%     89.19%  86.89%
+Quantitative Biology  93.44%     92.51%  92.97%
+--------------------  ---------  ------  --------
+Accuracy: 90.08%
+Macro F1-score: 90.08%
+
+
+
+Abstract length: 160
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.56%     85.71%  87.60%
+Mathematics           85.59%     89.20%  87.36%
+Physics               95.95%     90.29%  93.03%
+Quantitative Finance  92.09%     93.80%  92.94%
+Statistics            85.15%     89.67%  87.35%
+Quantitative Biology  93.88%     92.78%  93.33%
+--------------------  ---------  ------  --------
+Accuracy: 90.26%
+Macro F1-score: 90.27%
+
+
+
+Abstract length: 170
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.43%     86.09%  87.73%
+Mathematics           86.13%     89.20%  87.64%
+Physics               95.95%     90.19%  92.98%
+Quantitative Finance  92.09%     93.80%  92.94%
+Statistics            85.33%     89.86%  87.53%
+Quantitative Biology  93.80%     92.87%  93.33%
+--------------------  ---------  ------  --------
+Accuracy: 90.36%
+Macro F1-score: 90.36%
+
+
+
+Abstract length: 180
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.65%     85.71%  87.64%
+Mathematics           86.00%     89.39%  87.66%
+Physics               95.95%     90.19%  92.98%
+Quantitative Finance  92.10%     93.89%  92.98%
+Statistics            85.18%     89.86%  87.45%
+Quantitative Biology  93.89%     92.96%  93.42%
+--------------------  ---------  ------  --------
+Accuracy: 90.36%
+Macro F1-score: 90.36%
+
+
+
+Abstract length: 190
+Classification Report:
+None
+--------------------  ---------  ------  --------
+Category              Precision  Recall  F1-score
+Computer Science      89.80%     85.53%  87.61%
+Mathematics           85.92%     89.39%  87.62%
+Physics               95.96%     90.38%  93.08%
+Quantitative Finance  92.10%     93.89%  92.98%
+Statistics            85.18%     89.86%  87.45%
+Quantitative Biology  94.08%     93.23%  93.65%
+--------------------  ---------  ------  --------
+Accuracy: 90.40%
+Macro F1-score: 90.40%
+
+
+
+Abstract length: 200
+Classification Report:
+None

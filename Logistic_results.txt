@@ -1,0 +1,161 @@
+{'Statistics', 'Quantitative Finance', 'Physics', 'Computer Science', 'Mathematics', 'Quantitative Biology'}
+[Physics]                 549873
+[Mathematics]             306846
+[Computer Science]        100458
+[Statistics]               24137
+[Quantitative Biology]      9084
+[Quantitative Finance]      7385
+Name: count, dtype: int64
+{'Statistics', 'Quantitative Finance', 'Physics', 'Computer Science', 'Mathematics', 'Quantitative Biology'}
+[Mathematics]             7385
+[Computer Science]        7385
+[Physics]                 7385
+[Quantitative Finance]    7385
+[Statistics]              7385
+[Quantitative Biology]    7385
+Name: count, dtype: int64
+Train set size: 28358
+Dev set size: 7090
+Test set size: 8862
+Counter({'Mathematics': 7385, 'Computer Science': 7385, 'Physics': 7385, 'Quantitative Finance': 7385, 'Statistics': 7385, 'Quantitative Biology': 7385})
+Train set size: 28358
+Dev set size: 7090
+Test set size: 8862
+The F1 score for the random baseline is:  0.17017817212114314
+Vocabulary size of 106031
+Average loss for epoch 1: 10.2986
+Average loss for epoch 2: 2.4478
+Average loss for epoch 3: 0.9473
+Average loss for epoch 4: 0.7568
+Average loss for epoch 5: 0.9593
+Average loss for epoch 6: 1.0166
+The macro F1 score of the logistic regression classifier is:  0.6898429622508974
+Vocabulary size of 106031
+Abstract length: 50
+Average loss for epoch 1: 6.1023
+Average loss for epoch 2: 1.7012
+Average loss for epoch 3: 0.5758
+Average loss for epoch 4: 0.3601
+Average loss for epoch 5: 0.4523
+Average loss for epoch 6: 0.5353
+The macro F1 score of the logistic regression classifier at abstract length 50 is:  0.6905006608128397
+Abstract length: 60
+Average loss for epoch 1: 6.9043
+Average loss for epoch 2: 1.6976
+Average loss for epoch 3: 0.5744
+Average loss for epoch 4: 0.4224
+Average loss for epoch 5: 0.5614
+Average loss for epoch 6: 0.5224
+The macro F1 score of the logistic regression classifier at abstract length 60 is:  0.6999476459979855
+Abstract length: 70
+Average loss for epoch 1: 7.6116
+Average loss for epoch 2: 1.7772
+Average loss for epoch 3: 0.6289
+Average loss for epoch 4: 0.4456
+Average loss for epoch 5: 0.5882
+Average loss for epoch 6: 0.6241
+The macro F1 score of the logistic regression classifier at abstract length 70 is:  0.6997601536622274
+Abstract length: 80
+Average loss for epoch 1: 8.1788
+Average loss for epoch 2: 1.7266
+Average loss for epoch 3: 0.5689
+Average loss for epoch 4: 0.4533
+Average loss for epoch 5: 0.7128
+Average loss for epoch 6: 0.7332
+The macro F1 score of the logistic regression classifier at abstract length 80 is:  0.702481328503176
+Abstract length: 90
+Average loss for epoch 1: 8.5700
+Average loss for epoch 2: 1.7941
+Average loss for epoch 3: 0.6183
+Average loss for epoch 4: 0.4173
+Average loss for epoch 5: 0.7109
+Average loss for epoch 6: 0.8232
+The macro F1 score of the logistic regression classifier at abstract length 90 is:  0.7175046132622054
+Abstract length: 100
+Average loss for epoch 1: 9.0335
+Average loss for epoch 2: 1.8184
+Average loss for epoch 3: 0.6270
+Average loss for epoch 4: 0.4825
+Average loss for epoch 5: 0.7230
+Average loss for epoch 6: 0.7335
+The macro F1 score of the logistic regression classifier at abstract length 100 is:  0.7251186953799182
+Abstract length: 110
+Average loss for epoch 1: 9.4320
+Average loss for epoch 2: 1.8021
+Average loss for epoch 3: 0.5697
+Average loss for epoch 4: 0.4984
+Average loss for epoch 5: 0.7929
+Average loss for epoch 6: 1.0220
+The macro F1 score of the logistic regression classifier at abstract length 110 is:  0.7176902282059209
+Abstract length: 120
+Average loss for epoch 1: 9.7886
+Average loss for epoch 2: 1.7618
+Average loss for epoch 3: 0.5951
+Average loss for epoch 4: 0.5344
+Average loss for epoch 5: 0.8090
+Average loss for epoch 6: 0.9339
+The macro F1 score of the logistic regression classifier at abstract length 120 is:  0.7183354345307609
+Abstract length: 130
+Average loss for epoch 1: 10.1107
+Average loss for epoch 2: 1.8001
+Average loss for epoch 3: 0.6225
+Average loss for epoch 4: 0.5262
+Average loss for epoch 5: 0.8230
+Average loss for epoch 6: 1.0303
+The macro F1 score of the logistic regression classifier at abstract length 130 is:  0.727504079815671
+Abstract length: 140
+Average loss for epoch 1: 10.3317
+Average loss for epoch 2: 1.8431
+Average loss for epoch 3: 0.6330
+Average loss for epoch 4: 0.5742
+Average loss for epoch 5: 0.8694
+Average loss for epoch 6: 1.0195
+The macro F1 score of the logistic regression classifier at abstract length 140 is:  0.7292641581252535
+Abstract length: 150
+Average loss for epoch 1: 10.7625
+Average loss for epoch 2: 1.8364
+Average loss for epoch 3: 0.6161
+Average loss for epoch 4: 0.5753
+Average loss for epoch 5: 0.8742
+Average loss for epoch 6: 1.0069
+The macro F1 score of the logistic regression classifier at abstract length 150 is:  0.7344347428795152
+Abstract length: 160
+Average loss for epoch 1: 10.9513
+Average loss for epoch 2: 1.6942
+Average loss for epoch 3: 0.5582
+Average loss for epoch 4: 0.6564
+Average loss for epoch 5: 1.0003
+Average loss for epoch 6: 1.0942
+The macro F1 score of the logistic regression classifier at abstract length 160 is:  0.7355862564282666
+Abstract length: 170
+Average loss for epoch 1: 11.4725
+Average loss for epoch 2: 1.8009
+Average loss for epoch 3: 0.5374
+Average loss for epoch 4: 0.5833
+Average loss for epoch 5: 1.0198
+Average loss for epoch 6: 1.1463
+The macro F1 score of the logistic regression classifier at abstract length 170 is:  0.7373969190751479
+Abstract length: 180
+Average loss for epoch 1: 11.5207
+Average loss for epoch 2: 1.6874
+Average loss for epoch 3: 0.6448
+Average loss for epoch 4: 0.6237
+Average loss for epoch 5: 0.9679
+Average loss for epoch 6: 1.2058
+The macro F1 score of the logistic regression classifier at abstract length 180 is:  0.7402795620525328
+Abstract length: 190
+Average loss for epoch 1: 11.9150
+Average loss for epoch 2: 1.7377
+Average loss for epoch 3: 0.6634
+Average loss for epoch 4: 0.6611
+Average loss for epoch 5: 1.0415
+Average loss for epoch 6: 1.1902
+The macro F1 score of the logistic regression classifier at abstract length 190 is:  0.7311616727388053
+Abstract length: 200
+Average loss for epoch 1: 12.1130
+Average loss for epoch 2: 1.7223
+Average loss for epoch 3: 0.6701
+Average loss for epoch 4: 0.6643
+Average loss for epoch 5: 1.0700
+Average loss for epoch 6: 1.0420
+The macro F1 score of the logistic regression classifier at abstract length 200 is:  0.7395166802735765

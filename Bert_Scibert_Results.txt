@@ -1,0 +1,604 @@
+{'Computer Science', 'Physics', 'Quantitative Finance', 'Statistics', 'Mathematics', 'Quantitative Biology'}
+[Physics]                 538143
+[Mathematics]             288241
+[Computer Science]        106755
+[Statistics]               37986
+[Quantitative Biology]     19057
+[Quantitative Finance]      7324
+Name: count, dtype: int64
+{'Computer Science', 'Physics', 'Quantitative Finance', 'Statistics', 'Mathematics', 'Quantitative Biology'}
+[Mathematics]             7324
+[Computer Science]        7324
+[Physics]                 7324
+[Quantitative Finance]    7324
+[Statistics]              7324
+[Quantitative Biology]    7324
+Name: count, dtype: int64
+Train set size: 28124
+Dev set size: 7031
+Test set size: 8789
+Counter({'Mathematics': 7324, 'Computer Science': 7324, 'Physics': 7324, 'Quantitative Finance': 7324, 'Statistics': 7324, 'Quantitative Biology': 7324})
+Train set size: 28124
+Dev set size: 7031
+Test set size: 8789
+The F1 score for the random baseline is:  0.16280131437007192
+Bert:
+Average loss for epoch 1: 0.5728
+Average loss for epoch 2: 0.3525
+Average loss for epoch 3: 0.2072
+                      precision    recall  f1-score   support
+
+    Computer Science       0.81      0.74      0.77      1466
+         Mathematics       0.81      0.82      0.81      1453
+             Physics       0.89      0.90      0.89      1440
+Quantitative Finance       0.93      0.92      0.92      1498
+          Statistics       0.75      0.83      0.79      1504
+Quantitative Biology       0.91      0.89      0.90      1428
+
+            accuracy                           0.85      8789
+           macro avg       0.85      0.85      0.85      8789
+        weighted avg       0.85      0.85      0.85      8789
+
+SciBert:
+Average loss for epoch 1: 0.4684
+Average loss for epoch 2: 0.2941
+Average loss for epoch 3: 0.1744
+                      precision    recall  f1-score   support
+
+    Computer Science       0.81      0.77      0.79      1466
+         Mathematics       0.79      0.87      0.83      1453
+             Physics       0.85      0.93      0.89      1440
+Quantitative Finance       0.96      0.91      0.94      1498
+          Statistics       0.82      0.81      0.81      1504
+Quantitative Biology       0.92      0.86      0.89      1428
+
+            accuracy                           0.86      8789
+           macro avg       0.86      0.86      0.86      8789
+        weighted avg       0.86      0.86      0.86      8789
+
+Bert:
+Abstract Length: 50
+Average loss for epoch 1: 0.6471
+Average loss for epoch 2: 0.4085
+Average loss for epoch 3: 0.2312
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.77      0.75      1466
+         Mathematics       0.84      0.77      0.81      1453
+             Physics       0.84      0.92      0.88      1440
+Quantitative Finance       0.92      0.88      0.90      1498
+          Statistics       0.75      0.75      0.75      1504
+Quantitative Biology       0.88      0.88      0.88      1428
+
+            accuracy                           0.83      8789
+           macro avg       0.83      0.83      0.83      8789
+        weighted avg       0.83      0.83      0.83      8789
+
+Abstract Length: 60
+Average loss for epoch 1: 0.1354
+Average loss for epoch 2: 0.0816
+Average loss for epoch 3: 0.0577
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.77      0.75      1466
+         Mathematics       0.79      0.78      0.79      1453
+             Physics       0.81      0.92      0.86      1440
+Quantitative Finance       0.93      0.89      0.91      1498
+          Statistics       0.81      0.67      0.73      1504
+Quantitative Biology       0.84      0.87      0.85      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.81      8789
+        weighted avg       0.82      0.82      0.81      8789
+
+Abstract Length: 70
+Average loss for epoch 1: 0.0494
+Average loss for epoch 2: 0.0440
+Average loss for epoch 3: 0.0323
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.68      0.71      1466
+         Mathematics       0.83      0.72      0.77      1453
+             Physics       0.88      0.88      0.88      1440
+Quantitative Finance       0.96      0.86      0.91      1498
+          Statistics       0.61      0.86      0.72      1504
+Quantitative Biology       0.90      0.81      0.85      1428
+
+            accuracy                           0.80      8789
+           macro avg       0.82      0.80      0.81      8789
+        weighted avg       0.82      0.80      0.81      8789
+
+Abstract Length: 80
+Average loss for epoch 1: 0.0360
+Average loss for epoch 2: 0.0301
+Average loss for epoch 3: 0.0263
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.73      0.74      1466
+         Mathematics       0.83      0.77      0.80      1453
+             Physics       0.88      0.90      0.89      1440
+Quantitative Finance       0.93      0.89      0.91      1498
+          Statistics       0.71      0.77      0.74      1504
+Quantitative Biology       0.85      0.87      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 90
+Average loss for epoch 1: 0.0242
+Average loss for epoch 2: 0.0253
+Average loss for epoch 3: 0.0253
+                      precision    recall  f1-score   support
+
+    Computer Science       0.72      0.76      0.74      1466
+         Mathematics       0.83      0.75      0.79      1453
+             Physics       0.90      0.87      0.88      1440
+Quantitative Finance       0.91      0.89      0.90      1498
+          Statistics       0.77      0.70      0.73      1504
+Quantitative Biology       0.76      0.92      0.83      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.82      0.81      0.81      8789
+        weighted avg       0.82      0.81      0.81      8789
+
+Abstract Length: 100
+Average loss for epoch 1: 0.0241
+Average loss for epoch 2: 0.0220
+Average loss for epoch 3: 0.0218
+                      precision    recall  f1-score   support
+
+    Computer Science       0.71      0.77      0.74      1466
+         Mathematics       0.81      0.76      0.79      1453
+             Physics       0.89      0.87      0.88      1440
+Quantitative Finance       0.92      0.90      0.91      1498
+          Statistics       0.73      0.75      0.74      1504
+Quantitative Biology       0.86      0.87      0.87      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 110
+Average loss for epoch 1: 0.0215
+Average loss for epoch 2: 0.0232
+Average loss for epoch 3: 0.0192
+                      precision    recall  f1-score   support
+
+    Computer Science       0.77      0.70      0.73      1466
+         Mathematics       0.80      0.78      0.79      1453
+             Physics       0.88      0.89      0.89      1440
+Quantitative Finance       0.96      0.85      0.90      1498
+          Statistics       0.69      0.80      0.74      1504
+Quantitative Biology       0.84      0.88      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 120
+Average loss for epoch 1: 0.0192
+Average loss for epoch 2: 0.0182
+Average loss for epoch 3: 0.0196
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.69      0.74      1466
+         Mathematics       0.77      0.81      0.79      1453
+             Physics       0.90      0.87      0.89      1440
+Quantitative Finance       0.91      0.90      0.90      1498
+          Statistics       0.75      0.76      0.76      1504
+Quantitative Biology       0.81      0.90      0.85      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 130
+Average loss for epoch 1: 0.0217
+Average loss for epoch 2: 0.0203
+Average loss for epoch 3: 0.0161
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.73      0.74      1466
+         Mathematics       0.77      0.81      0.79      1453
+             Physics       0.86      0.90      0.88      1440
+Quantitative Finance       0.86      0.93      0.90      1498
+          Statistics       0.83      0.62      0.71      1504
+Quantitative Biology       0.81      0.89      0.85      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.81      0.81      0.81      8789
+        weighted avg       0.81      0.81      0.81      8789
+
+Abstract Length: 140
+Average loss for epoch 1: 0.0214
+Average loss for epoch 2: 0.0182
+Average loss for epoch 3: 0.0158
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.75      0.74      1466
+         Mathematics       0.81      0.79      0.80      1453
+             Physics       0.88      0.89      0.89      1440
+Quantitative Finance       0.93      0.90      0.91      1498
+          Statistics       0.75      0.73      0.74      1504
+Quantitative Biology       0.84      0.89      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 150
+Average loss for epoch 1: 0.0173
+Average loss for epoch 2: 0.0176
+Average loss for epoch 3: 0.0178
+                      precision    recall  f1-score   support
+
+    Computer Science       0.78      0.70      0.74      1466
+         Mathematics       0.76      0.82      0.79      1453
+             Physics       0.88      0.89      0.88      1440
+Quantitative Finance       0.91      0.90      0.91      1498
+          Statistics       0.76      0.73      0.75      1504
+Quantitative Biology       0.85      0.88      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 160
+Average loss for epoch 1: 0.0211
+Average loss for epoch 2: 0.0179
+Average loss for epoch 3: 0.0140
+                      precision    recall  f1-score   support
+
+    Computer Science       0.71      0.79      0.74      1466
+         Mathematics       0.81      0.78      0.80      1453
+             Physics       0.88      0.89      0.88      1440
+Quantitative Finance       0.94      0.88      0.91      1498
+          Statistics       0.74      0.73      0.73      1504
+Quantitative Biology       0.86      0.87      0.87      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 170
+Average loss for epoch 1: 0.0213
+Average loss for epoch 2: 0.0221
+Average loss for epoch 3: 0.0217
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.71      0.72      1466
+         Mathematics       0.79      0.78      0.79      1453
+             Physics       0.84      0.91      0.87      1440
+Quantitative Finance       0.92      0.90      0.91      1498
+          Statistics       0.72      0.75      0.74      1504
+Quantitative Biology       0.88      0.83      0.85      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.81      0.81      0.81      8789
+        weighted avg       0.81      0.81      0.81      8789
+
+Abstract Length: 180
+Average loss for epoch 1: 0.0218
+Average loss for epoch 2: 0.0229
+Average loss for epoch 3: 0.0215
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.73      0.74      1466
+         Mathematics       0.78      0.79      0.78      1453
+             Physics       0.83      0.90      0.86      1440
+Quantitative Finance       0.95      0.88      0.91      1498
+          Statistics       0.73      0.75      0.74      1504
+Quantitative Biology       0.87      0.84      0.86      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.82      0.81      0.82      8789
+        weighted avg       0.82      0.81      0.81      8789
+
+Abstract Length: 190
+Average loss for epoch 1: 0.0234
+Average loss for epoch 2: 0.0207
+Average loss for epoch 3: 0.0273
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.60      0.69      1466
+         Mathematics       0.81      0.76      0.78      1453
+             Physics       0.86      0.89      0.88      1440
+Quantitative Finance       0.93      0.89      0.91      1498
+          Statistics       0.69      0.79      0.73      1504
+Quantitative Biology       0.75      0.88      0.81      1428
+
+            accuracy                           0.80      8789
+           macro avg       0.81      0.80      0.80      8789
+        weighted avg       0.81      0.80      0.80      8789
+
+Abstract Length: 200
+Average loss for epoch 1: 0.0277
+Average loss for epoch 2: 0.0310
+Average loss for epoch 3: 0.0289
+                      precision    recall  f1-score   support
+
+    Computer Science       0.70      0.76      0.73      1466
+         Mathematics       0.79      0.79      0.79      1453
+             Physics       0.83      0.90      0.87      1440
+Quantitative Finance       0.91      0.90      0.90      1498
+          Statistics       0.82      0.64      0.72      1504
+Quantitative Biology       0.83      0.89      0.86      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.81      0.81      0.81      8789
+        weighted avg       0.81      0.81      0.81      8789
+
+SciBert:
+Abstract Length: 50
+Average loss for epoch 1: 0.5614
+Average loss for epoch 2: 0.3502
+Average loss for epoch 3: 0.1937
+                      precision    recall  f1-score   support
+
+    Computer Science       0.77      0.76      0.77      1466
+         Mathematics       0.77      0.84      0.81      1453
+             Physics       0.92      0.87      0.89      1440
+Quantitative Finance       0.88      0.92      0.90      1498
+          Statistics       0.81      0.69      0.75      1504
+Quantitative Biology       0.84      0.92      0.88      1428
+
+            accuracy                           0.83      8789
+           macro avg       0.83      0.83      0.83      8789
+        weighted avg       0.83      0.83      0.83      8789
+
+Abstract Length: 60
+Average loss for epoch 1: 0.1216
+Average loss for epoch 2: 0.0727
+Average loss for epoch 3: 0.0543
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.77      0.75      1466
+         Mathematics       0.79      0.81      0.80      1453
+             Physics       0.90      0.88      0.89      1440
+Quantitative Finance       0.92      0.90      0.91      1498
+          Statistics       0.79      0.71      0.75      1504
+Quantitative Biology       0.84      0.90      0.87      1428
+
+            accuracy                           0.83      8789
+           macro avg       0.83      0.83      0.83      8789
+        weighted avg       0.83      0.83      0.83      8789
+
+Abstract Length: 70
+Average loss for epoch 1: 0.0471
+Average loss for epoch 2: 0.0395
+Average loss for epoch 3: 0.0363
+                      precision    recall  f1-score   support
+
+    Computer Science       0.76      0.75      0.76      1466
+         Mathematics       0.79      0.82      0.81      1453
+             Physics       0.86      0.90      0.88      1440
+Quantitative Finance       0.91      0.91      0.91      1498
+          Statistics       0.78      0.73      0.76      1504
+Quantitative Biology       0.90      0.88      0.89      1428
+
+            accuracy                           0.83      8789
+           macro avg       0.83      0.83      0.83      8789
+        weighted avg       0.83      0.83      0.83      8789
+
+Abstract Length: 80
+Average loss for epoch 1: 0.0323
+Average loss for epoch 2: 0.0286
+Average loss for epoch 3: 0.0263
+                      precision    recall  f1-score   support
+
+    Computer Science       0.70      0.81      0.75      1466
+         Mathematics       0.83      0.76      0.79      1453
+             Physics       0.86      0.90      0.88      1440
+Quantitative Finance       0.93      0.90      0.91      1498
+          Statistics       0.77      0.72      0.74      1504
+Quantitative Biology       0.88      0.86      0.87      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.83      0.82      0.82      8789
+        weighted avg       0.83      0.82      0.82      8789
+
+Abstract Length: 90
+Average loss for epoch 1: 0.0296
+Average loss for epoch 2: 0.0283
+Average loss for epoch 3: 0.0228
+                      precision    recall  f1-score   support
+
+    Computer Science       0.79      0.65      0.71      1466
+         Mathematics       0.78      0.82      0.80      1453
+             Physics       0.89      0.88      0.88      1440
+Quantitative Finance       0.93      0.89      0.91      1498
+          Statistics       0.67      0.83      0.74      1504
+Quantitative Biology       0.90      0.85      0.87      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.83      0.82      0.82      8789
+        weighted avg       0.83      0.82      0.82      8789
+
+Abstract Length: 100
+Average loss for epoch 1: 0.0235
+Average loss for epoch 2: 0.0217
+Average loss for epoch 3: 0.0202
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.74      0.74      1466
+         Mathematics       0.80      0.81      0.81      1453
+             Physics       0.91      0.88      0.89      1440
+Quantitative Finance       0.92      0.90      0.91      1498
+          Statistics       0.73      0.76      0.75      1504
+Quantitative Biology       0.86      0.88      0.87      1428
+
+            accuracy                           0.83      8789
+           macro avg       0.83      0.83      0.83      8789
+        weighted avg       0.83      0.83      0.83      8789
+
+Abstract Length: 110
+Average loss for epoch 1: 0.0222
+Average loss for epoch 2: 0.0178
+Average loss for epoch 3: 0.0226
+                      precision    recall  f1-score   support
+
+    Computer Science       0.72      0.76      0.74      1466
+         Mathematics       0.78      0.82      0.80      1453
+             Physics       0.90      0.87      0.88      1440
+Quantitative Finance       0.87      0.92      0.89      1498
+          Statistics       0.74      0.73      0.73      1504
+Quantitative Biology       0.91      0.81      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 120
+Average loss for epoch 1: 0.0252
+Average loss for epoch 2: 0.0218
+Average loss for epoch 3: 0.0174
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.75      0.74      1466
+         Mathematics       0.81      0.77      0.79      1453
+             Physics       0.89      0.88      0.89      1440
+Quantitative Finance       0.92      0.90      0.91      1498
+          Statistics       0.71      0.76      0.74      1504
+Quantitative Biology       0.86      0.87      0.87      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 130
+Average loss for epoch 1: 0.0259
+Average loss for epoch 2: 0.0250
+Average loss for epoch 3: 0.0294
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.68      0.72      1466
+         Mathematics       0.73      0.85      0.78      1453
+             Physics       0.82      0.90      0.86      1440
+Quantitative Finance       0.83      0.92      0.87      1498
+          Statistics       0.81      0.60      0.69      1504
+Quantitative Biology       0.87      0.87      0.87      1428
+
+            accuracy                           0.80      8789
+           macro avg       0.80      0.80      0.80      8789
+        weighted avg       0.80      0.80      0.80      8789
+
+Abstract Length: 140
+Average loss for epoch 1: 0.0725
+Average loss for epoch 2: 0.0408
+Average loss for epoch 3: 0.0552
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.75      0.74      1466
+         Mathematics       0.76      0.84      0.80      1453
+             Physics       0.93      0.83      0.87      1440
+Quantitative Finance       0.91      0.91      0.91      1498
+          Statistics       0.74      0.74      0.74      1504
+Quantitative Biology       0.87      0.86      0.86      1428
+
+            accuracy                           0.82      8789
+           macro avg       0.82      0.82      0.82      8789
+        weighted avg       0.82      0.82      0.82      8789
+
+Abstract Length: 150
+Average loss for epoch 1: 0.0415
+Average loss for epoch 2: 0.0393
+Average loss for epoch 3: 0.0601
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.68      0.72      1466
+         Mathematics       0.82      0.76      0.79      1453
+             Physics       0.86      0.88      0.87      1440
+Quantitative Finance       0.90      0.90      0.90      1498
+          Statistics       0.72      0.74      0.73      1504
+Quantitative Biology       0.82      0.91      0.86      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.81      0.81      0.81      8789
+        weighted avg       0.81      0.81      0.81      8789
+
+Abstract Length: 160
+Average loss for epoch 1: 0.0599
+Average loss for epoch 2: 0.0612
+Average loss for epoch 3: 0.0602
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.72      0.73      1466
+         Mathematics       0.67      0.88      0.76      1453
+             Physics       0.93      0.81      0.86      1440
+Quantitative Finance       0.95      0.87      0.91      1498
+          Statistics       0.75      0.69      0.72      1504
+Quantitative Biology       0.86      0.87      0.87      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.82      0.81      0.81      8789
+        weighted avg       0.82      0.81      0.81      8789
+
+Abstract Length: 170
+Average loss for epoch 1: 0.0805
+Average loss for epoch 2: 0.0783
+Average loss for epoch 3: 0.0901
+                      precision    recall  f1-score   support
+
+    Computer Science       0.76      0.70      0.73      1466
+         Mathematics       0.88      0.70      0.78      1453
+             Physics       0.88      0.88      0.88      1440
+Quantitative Finance       0.92      0.88      0.90      1498
+          Statistics       0.62      0.80      0.70      1504
+Quantitative Biology       0.85      0.88      0.86      1428
+
+            accuracy                           0.80      8789
+           macro avg       0.82      0.80      0.81      8789
+        weighted avg       0.82      0.80      0.81      8789
+
+Abstract Length: 180
+Average loss for epoch 1: 0.0883
+Average loss for epoch 2: 0.0876
+Average loss for epoch 3: 0.0832
+                      precision    recall  f1-score   support
+
+    Computer Science       0.72      0.70      0.71      1466
+         Mathematics       0.75      0.83      0.79      1453
+             Physics       0.90      0.85      0.87      1440
+Quantitative Finance       0.92      0.89      0.91      1498
+          Statistics       0.78      0.69      0.73      1504
+Quantitative Biology       0.81      0.91      0.86      1428
+
+            accuracy                           0.81      8789
+           macro avg       0.81      0.81      0.81      8789
+        weighted avg       0.81      0.81      0.81      8789
+
+Abstract Length: 190
+Average loss for epoch 1: 0.0835
+Average loss for epoch 2: 0.1250
+Average loss for epoch 3: 0.1136
+                      precision    recall  f1-score   support
+
+    Computer Science       0.69      0.77      0.73      1466
+         Mathematics       0.86      0.70      0.77      1453
+             Physics       0.83      0.89      0.86      1440
+Quantitative Finance       0.91      0.90      0.91      1498
+          Statistics       0.73      0.74      0.74      1504
+Quantitative Biology       0.82      0.83      0.83      1428
+
+            accuracy                           0.80      8789
+           macro avg       0.81      0.80      0.80      8789
+        weighted avg       0.81      0.80      0.80      8789
+
+Abstract Length: 200
+Average loss for epoch 1: 0.0913
+Average loss for epoch 2: 0.1074
+Average loss for epoch 3: 0.0859
+                      precision    recall  f1-score   support
+
+    Computer Science       0.78      0.52      0.62      1466
+         Mathematics       0.80      0.75      0.77      1453
+             Physics       0.89      0.88      0.89      1440
+Quantitative Finance       0.94      0.90      0.91      1498
+          Statistics       0.58      0.86      0.69      1504
+Quantitative Biology       0.89      0.83      0.86      1428
+
+            accuracy                           0.79      8789
+           macro avg       0.81      0.79      0.79      8789
+        weighted avg       0.81      0.79      0.79      8789
+

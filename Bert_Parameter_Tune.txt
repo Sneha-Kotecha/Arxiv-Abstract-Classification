@@ -1,0 +1,1140 @@
+Training with Batch Size: 8, Learning Rate: 0.0003, Epochs: 2
+Epoch 1: Average loss: 0.2243
+Epoch 2: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.16      1.00      0.28      1443
+
+            accuracy                           0.16      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.16      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 0.0003, Epochs: 3
+Epoch 1: Average loss: 0.2245
+Epoch 2: Average loss: 0.2242
+Epoch 3: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.16      1.00      0.28      1443
+
+            accuracy                           0.16      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.16      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 0.0003, Epochs: 4
+Epoch 1: Average loss: 0.2243
+Epoch 2: Average loss: 0.2240
+Epoch 3: Average loss: 0.2240
+Epoch 4: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 0.0001, Epochs: 2
+Epoch 1: Average loss: 0.2246
+Epoch 2: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 0.0001, Epochs: 3
+Epoch 1: Average loss: 0.2174
+Epoch 2: Average loss: 0.2243
+Epoch 3: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.16      1.00      0.28      1443
+
+            accuracy                           0.16      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.16      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 0.0001, Epochs: 4
+Epoch 1: Average loss: 0.1338
+Epoch 2: Average loss: 0.2166
+Epoch 3: Average loss: 0.2240
+Epoch 4: Average loss: 0.2240
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.17      1.00      0.29      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 5e-05, Epochs: 2
+Epoch 1: Average loss: 0.0843
+Epoch 2: Average loss: 0.0577
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.81      0.76      0.78      1481
+         Mathematics       0.82      0.84      0.83      1472
+             Physics       0.95      0.85      0.90      1478
+Quantitative Finance       0.92      0.87      0.89      1493
+          Statistics       0.71      0.84      0.77      1482
+Quantitative Biology       0.85      0.87      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 5e-05, Epochs: 3
+Epoch 1: Average loss: 0.0814
+Epoch 2: Average loss: 0.0557
+Epoch 3: Average loss: 0.0417
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.72      0.77      1481
+         Mathematics       0.82      0.84      0.83      1472
+             Physics       0.93      0.89      0.91      1478
+Quantitative Finance       0.88      0.90      0.89      1493
+          Statistics       0.78      0.72      0.75      1482
+Quantitative Biology       0.76      0.93      0.84      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.83      0.83      0.83      8849
+        weighted avg       0.83      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 5e-05, Epochs: 4
+Epoch 1: Average loss: 0.0854
+Epoch 2: Average loss: 0.0580
+Epoch 3: Average loss: 0.0466
+Epoch 4: Average loss: 0.0386
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.77      0.77      0.77      1481
+         Mathematics       0.82      0.82      0.82      1472
+             Physics       0.89      0.90      0.89      1478
+Quantitative Finance       0.86      0.91      0.88      1493
+          Statistics       0.73      0.76      0.74      1482
+Quantitative Biology       0.88      0.77      0.82      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.82      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 3e-05, Epochs: 2
+Epoch 1: Average loss: 0.0773
+Epoch 2: Average loss: 0.0509
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.82      0.78      0.80      1481
+         Mathematics       0.90      0.78      0.83      1472
+             Physics       0.91      0.91      0.91      1478
+Quantitative Finance       0.92      0.86      0.89      1493
+          Statistics       0.71      0.85      0.77      1482
+Quantitative Biology       0.84      0.88      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 3e-05, Epochs: 3
+Epoch 1: Average loss: 0.0781
+Epoch 2: Average loss: 0.0515
+Epoch 3: Average loss: 0.0362
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.76      0.82      0.79      1481
+         Mathematics       0.89      0.75      0.82      1472
+             Physics       0.92      0.90      0.91      1478
+Quantitative Finance       0.85      0.92      0.88      1493
+          Statistics       0.75      0.77      0.76      1482
+Quantitative Biology       0.87      0.85      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 8, Learning Rate: 3e-05, Epochs: 4
+Epoch 1: Average loss: 0.0787
+Epoch 2: Average loss: 0.0519
+Epoch 3: Average loss: 0.0368
+Epoch 4: Average loss: 0.0250
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.74      0.78      1481
+         Mathematics       0.86      0.83      0.84      1472
+             Physics       0.95      0.88      0.91      1478
+Quantitative Finance       0.88      0.87      0.87      1493
+          Statistics       0.68      0.84      0.75      1482
+Quantitative Biology       0.86      0.85      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0003, Epochs: 2
+Epoch 1: Average loss: 0.1122
+Epoch 2: Average loss: 0.1120
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.17      1.00      0.29      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0003, Epochs: 3
+Epoch 1: Average loss: 0.1123
+Epoch 2: Average loss: 0.1120
+Epoch 3: Average loss: 0.1120
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0003, Epochs: 4
+Epoch 1: Average loss: 0.1122
+Epoch 2: Average loss: 0.1120
+Epoch 3: Average loss: 0.1120
+Epoch 4: Average loss: 0.1120
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0001, Epochs: 2
+Epoch 1: Average loss: 0.0431
+Epoch 2: Average loss: 0.0294
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.79      0.77      1481
+         Mathematics       0.85      0.79      0.82      1472
+             Physics       0.93      0.81      0.87      1478
+Quantitative Finance       0.92      0.86      0.89      1493
+          Statistics       0.79      0.64      0.71      1482
+Quantitative Biology       0.69      0.96      0.80      1443
+
+            accuracy                           0.81      8849
+           macro avg       0.82      0.81      0.81      8849
+        weighted avg       0.82      0.81      0.81      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0001, Epochs: 3
+Epoch 1: Average loss: 0.0437
+Epoch 2: Average loss: 0.0299
+Epoch 3: Average loss: 0.0229
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.82      0.70      0.75      1481
+         Mathematics       0.76      0.84      0.80      1472
+             Physics       0.90      0.89      0.89      1478
+Quantitative Finance       0.93      0.85      0.89      1493
+          Statistics       0.72      0.77      0.75      1482
+Quantitative Biology       0.81      0.88      0.85      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.83      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 0.0001, Epochs: 4
+Epoch 1: Average loss: 0.0432
+Epoch 2: Average loss: 0.0301
+Epoch 3: Average loss: 0.0232
+Epoch 4: Average loss: 0.0177
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.79      0.71      0.75      1481
+         Mathematics       0.80      0.83      0.82      1472
+             Physics       0.95      0.84      0.89      1478
+Quantitative Finance       0.94      0.86      0.89      1493
+          Statistics       0.68      0.83      0.75      1482
+Quantitative Biology       0.82      0.86      0.84      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.83      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 5e-05, Epochs: 2
+Epoch 1: Average loss: 0.0398
+Epoch 2: Average loss: 0.0265
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.86      0.70      0.77      1481
+         Mathematics       0.85      0.83      0.84      1472
+             Physics       0.90      0.90      0.90      1478
+Quantitative Finance       0.92      0.87      0.90      1493
+          Statistics       0.73      0.80      0.76      1482
+Quantitative Biology       0.78      0.93      0.85      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 5e-05, Epochs: 3
+Epoch 1: Average loss: 0.0396
+Epoch 2: Average loss: 0.0264
+Epoch 3: Average loss: 0.0190
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.74      0.82      0.78      1481
+         Mathematics       0.86      0.81      0.83      1472
+             Physics       0.92      0.91      0.92      1478
+Quantitative Finance       0.93      0.84      0.88      1493
+          Statistics       0.72      0.83      0.77      1482
+Quantitative Biology       0.89      0.82      0.85      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 5e-05, Epochs: 4
+Epoch 1: Average loss: 0.0393
+Epoch 2: Average loss: 0.0258
+Epoch 3: Average loss: 0.0184
+Epoch 4: Average loss: 0.0129
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.82      0.77      1481
+         Mathematics       0.92      0.69      0.79      1472
+             Physics       0.89      0.91      0.90      1478
+Quantitative Finance       0.89      0.88      0.88      1493
+          Statistics       0.74      0.77      0.75      1482
+Quantitative Biology       0.82      0.87      0.84      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.83      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 3e-05, Epochs: 2
+Epoch 1: Average loss: 0.0391
+Epoch 2: Average loss: 0.0254
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.88      0.67      0.76      1481
+         Mathematics       0.83      0.84      0.83      1472
+             Physics       0.94      0.89      0.92      1478
+Quantitative Finance       0.88      0.91      0.89      1493
+          Statistics       0.73      0.81      0.77      1482
+Quantitative Biology       0.81      0.93      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 3e-05, Epochs: 3
+Epoch 1: Average loss: 0.0390
+Epoch 2: Average loss: 0.0252
+Epoch 3: Average loss: 0.0177
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.77      0.79      1481
+         Mathematics       0.86      0.82      0.84      1472
+             Physics       0.93      0.88      0.91      1478
+Quantitative Finance       0.85      0.93      0.89      1493
+          Statistics       0.78      0.74      0.76      1482
+Quantitative Biology       0.82      0.89      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 16, Learning Rate: 3e-05, Epochs: 4
+Epoch 1: Average loss: 0.0381
+Epoch 2: Average loss: 0.0248
+Epoch 3: Average loss: 0.0172
+Epoch 4: Average loss: 0.0112
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.85      0.71      0.77      1481
+         Mathematics       0.88      0.79      0.83      1472
+             Physics       0.94      0.89      0.91      1478
+Quantitative Finance       0.89      0.89      0.89      1493
+          Statistics       0.66      0.88      0.75      1482
+Quantitative Biology       0.86      0.86      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0003, Epochs: 2
+Epoch 1: Average loss: 0.0561
+Epoch 2: Average loss: 0.0560
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.16      1.00      0.28      1443
+
+            accuracy                           0.16      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.16      0.05      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0003, Epochs: 3
+Epoch 1: Average loss: 0.0539
+Epoch 2: Average loss: 0.0560
+Epoch 3: Average loss: 0.0560
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0003, Epochs: 4
+Epoch 1: Average loss: 0.0544
+Epoch 2: Average loss: 0.0560
+Epoch 3: Average loss: 0.0560
+Epoch 4: Average loss: 0.0560
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.16      1.00      0.28      1443
+
+            accuracy                           0.16      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.16      0.05      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0001, Epochs: 2
+Epoch 1: Average loss: 0.0209
+Epoch 2: Average loss: 0.0138
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.85      0.67      0.75      1481
+         Mathematics       0.79      0.85      0.82      1472
+             Physics       0.96      0.86      0.91      1478
+Quantitative Finance       0.84      0.92      0.88      1493
+          Statistics       0.73      0.80      0.76      1482
+Quantitative Biology       0.84      0.87      0.85      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.83      0.83      0.83      8849
+        weighted avg       0.83      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0001, Epochs: 3
+Epoch 1: Average loss: 0.0204
+Epoch 2: Average loss: 0.0134
+Epoch 3: Average loss: 0.0099
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.78      0.75      0.76      1481
+         Mathematics       0.90      0.72      0.80      1472
+             Physics       0.91      0.89      0.90      1478
+Quantitative Finance       0.86      0.91      0.89      1493
+          Statistics       0.80      0.62      0.70      1482
+Quantitative Biology       0.67      0.96      0.79      1443
+
+            accuracy                           0.81      8849
+           macro avg       0.82      0.81      0.81      8849
+        weighted avg       0.82      0.81      0.81      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 0.0001, Epochs: 4
+Epoch 1: Average loss: 0.0203
+Epoch 2: Average loss: 0.0136
+Epoch 3: Average loss: 0.0097
+Epoch 4: Average loss: 0.0071
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.78      0.76      1481
+         Mathematics       0.80      0.85      0.82      1472
+             Physics       0.91      0.87      0.89      1478
+Quantitative Finance       0.91      0.85      0.88      1493
+          Statistics       0.75      0.74      0.75      1482
+Quantitative Biology       0.83      0.86      0.84      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.83      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 5e-05, Epochs: 2
+Epoch 1: Average loss: 0.0195
+Epoch 2: Average loss: 0.0124
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.82      0.75      0.79      1481
+         Mathematics       0.84      0.83      0.83      1472
+             Physics       0.93      0.89      0.91      1478
+Quantitative Finance       0.91      0.89      0.90      1493
+          Statistics       0.73      0.83      0.78      1482
+Quantitative Biology       0.85      0.87      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 5e-05, Epochs: 3
+Epoch 1: Average loss: 0.0197
+Epoch 2: Average loss: 0.0127
+Epoch 3: Average loss: 0.0088
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.81      0.76      0.78      1481
+         Mathematics       0.85      0.82      0.83      1472
+             Physics       0.95      0.87      0.91      1478
+Quantitative Finance       0.88      0.91      0.90      1493
+          Statistics       0.72      0.83      0.77      1482
+Quantitative Biology       0.85      0.86      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 5e-05, Epochs: 4
+Epoch 1: Average loss: 0.0196
+Epoch 2: Average loss: 0.0124
+Epoch 3: Average loss: 0.0086
+Epoch 4: Average loss: 0.0059
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.76      0.78      1481
+         Mathematics       0.83      0.83      0.83      1472
+             Physics       0.95      0.86      0.91      1478
+Quantitative Finance       0.86      0.91      0.88      1493
+          Statistics       0.71      0.82      0.76      1482
+Quantitative Biology       0.87      0.81      0.84      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.84      0.83      0.83      8849
+        weighted avg       0.84      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 3e-05, Epochs: 2
+Epoch 1: Average loss: 0.0204
+Epoch 2: Average loss: 0.0127
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.77      0.80      1481
+         Mathematics       0.81      0.83      0.82      1472
+             Physics       0.89      0.92      0.91      1478
+Quantitative Finance       0.91      0.89      0.90      1493
+          Statistics       0.79      0.74      0.77      1482
+Quantitative Biology       0.83      0.91      0.87      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 3e-05, Epochs: 3
+Epoch 1: Average loss: 0.0202
+Epoch 2: Average loss: 0.0126
+Epoch 3: Average loss: 0.0089
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.75      0.84      0.79      1481
+         Mathematics       0.89      0.78      0.83      1472
+             Physics       0.98      0.81      0.88      1478
+Quantitative Finance       0.91      0.89      0.90      1493
+          Statistics       0.72      0.83      0.77      1482
+Quantitative Biology       0.82      0.86      0.84      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.84      0.83      0.84      8849
+        weighted avg       0.84      0.83      0.84      8849
+
+==================================================
+Training with Batch Size: 32, Learning Rate: 3e-05, Epochs: 4
+Epoch 1: Average loss: 0.0201
+Epoch 2: Average loss: 0.0127
+Epoch 3: Average loss: 0.0091
+Epoch 4: Average loss: 0.0061
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.77      0.79      1481
+         Mathematics       0.84      0.82      0.83      1472
+             Physics       0.96      0.86      0.90      1478
+Quantitative Finance       0.86      0.92      0.89      1493
+          Statistics       0.76      0.78      0.77      1482
+Quantitative Biology       0.83      0.90      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0003, Epochs: 2
+Epoch 1: Average loss: 0.0281
+Epoch 2: Average loss: 0.0280
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.17      1.00      0.29      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0003, Epochs: 3
+Epoch 1: Average loss: 0.0281
+Epoch 2: Average loss: 0.0280
+Epoch 3: Average loss: 0.0280
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.17      1.00      0.29      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0003, Epochs: 4
+Epoch 1: Average loss: 0.0280
+Epoch 2: Average loss: 0.0280
+Epoch 3: Average loss: 0.0280
+Epoch 4: Average loss: 0.0280
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0001, Epochs: 2
+Epoch 1: Average loss: 0.0100
+Epoch 2: Average loss: 0.0064
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.87      0.66      0.75      1481
+         Mathematics       0.77      0.87      0.82      1472
+             Physics       0.94      0.86      0.90      1478
+Quantitative Finance       0.89      0.90      0.89      1493
+          Statistics       0.72      0.83      0.77      1482
+Quantitative Biology       0.85      0.87      0.86      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.84      0.83      0.83      8849
+        weighted avg       0.84      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0001, Epochs: 3
+Epoch 1: Average loss: 0.0101
+Epoch 2: Average loss: 0.0064
+Epoch 3: Average loss: 0.0045
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.78      0.79      1481
+         Mathematics       0.85      0.83      0.84      1472
+             Physics       0.89      0.91      0.90      1478
+Quantitative Finance       0.89      0.91      0.90      1493
+          Statistics       0.77      0.77      0.77      1482
+Quantitative Biology       0.85      0.86      0.85      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 0.0001, Epochs: 4
+Epoch 1: Average loss: 0.0100
+Epoch 2: Average loss: 0.0063
+Epoch 3: Average loss: 0.0045
+Epoch 4: Average loss: 0.0031
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.73      0.77      1481
+         Mathematics       0.79      0.84      0.82      1472
+             Physics       0.85      0.92      0.88      1478
+Quantitative Finance       0.93      0.88      0.90      1493
+          Statistics       0.73      0.79      0.76      1482
+Quantitative Biology       0.87      0.82      0.84      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.83      0.83      0.83      8849
+        weighted avg       0.83      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 5e-05, Epochs: 2
+Epoch 1: Average loss: 0.0103
+Epoch 2: Average loss: 0.0063
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.82      0.74      0.78      1481
+         Mathematics       0.83      0.85      0.84      1472
+             Physics       0.96      0.87      0.91      1478
+Quantitative Finance       0.93      0.88      0.91      1493
+          Statistics       0.68      0.88      0.77      1482
+Quantitative Biology       0.87      0.81      0.84      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 5e-05, Epochs: 3
+Epoch 1: Average loss: 0.0104
+Epoch 2: Average loss: 0.0064
+Epoch 3: Average loss: 0.0046
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.79      0.79      1481
+         Mathematics       0.87      0.79      0.83      1472
+             Physics       0.94      0.88      0.91      1478
+Quantitative Finance       0.93      0.88      0.90      1493
+          Statistics       0.69      0.84      0.76      1482
+Quantitative Biology       0.85      0.85      0.85      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 5e-05, Epochs: 4
+Epoch 1: Average loss: 0.0102
+Epoch 2: Average loss: 0.0063
+Epoch 3: Average loss: 0.0044
+Epoch 4: Average loss: 0.0029
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.84      0.73      0.78      1481
+         Mathematics       0.81      0.86      0.83      1472
+             Physics       0.93      0.90      0.91      1478
+Quantitative Finance       0.86      0.92      0.89      1493
+          Statistics       0.78      0.74      0.76      1482
+Quantitative Biology       0.82      0.90      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 3e-05, Epochs: 2
+Epoch 1: Average loss: 0.0107
+Epoch 2: Average loss: 0.0066
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.84      0.73      0.78      1481
+         Mathematics       0.86      0.82      0.84      1472
+             Physics       0.96      0.87      0.91      1478
+Quantitative Finance       0.88      0.90      0.89      1493
+          Statistics       0.71      0.85      0.77      1482
+Quantitative Biology       0.84      0.89      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 3e-05, Epochs: 3
+Epoch 1: Average loss: 0.0106
+Epoch 2: Average loss: 0.0065
+Epoch 3: Average loss: 0.0047
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.79      0.80      1481
+         Mathematics       0.82      0.86      0.84      1472
+             Physics       0.96      0.88      0.92      1478
+Quantitative Finance       0.93      0.88      0.90      1493
+          Statistics       0.73      0.83      0.78      1482
+Quantitative Biology       0.88      0.84      0.86      1443
+
+            accuracy                           0.85      8849
+           macro avg       0.85      0.85      0.85      8849
+        weighted avg       0.85      0.85      0.85      8849
+
+==================================================
+Training with Batch Size: 64, Learning Rate: 3e-05, Epochs: 4
+Epoch 1: Average loss: 0.0106
+Epoch 2: Average loss: 0.0064
+Epoch 3: Average loss: 0.0047
+Epoch 4: Average loss: 0.0033
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.79      0.78      0.79      1481
+         Mathematics       0.89      0.78      0.83      1472
+             Physics       0.94      0.88      0.91      1478
+Quantitative Finance       0.87      0.91      0.89      1493
+          Statistics       0.75      0.77      0.76      1482
+Quantitative Biology       0.81      0.92      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0003, Epochs: 2
+Epoch 1: Average loss: 0.0065
+Epoch 2: Average loss: 0.0038
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.73      0.79      0.76      1481
+         Mathematics       0.82      0.83      0.83      1472
+             Physics       0.94      0.86      0.90      1478
+Quantitative Finance       0.95      0.82      0.88      1493
+          Statistics       0.75      0.71      0.73      1482
+Quantitative Biology       0.78      0.92      0.84      1443
+
+            accuracy                           0.82      8849
+           macro avg       0.83      0.82      0.82      8849
+        weighted avg       0.83      0.82      0.82      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0003, Epochs: 3
+Epoch 1: Average loss: 0.0120
+Epoch 2: Average loss: 0.0141
+Epoch 3: Average loss: 0.0141
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.00      0.00      0.00      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.17      1.00      0.29      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0003, Epochs: 4
+Epoch 1: Average loss: 0.0065
+Epoch 2: Average loss: 0.0040
+Epoch 3: Average loss: 0.0030
+Epoch 4: Average loss: 0.0099
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.00      0.00      0.00      1481
+         Mathematics       0.00      0.00      0.00      1472
+             Physics       0.17      1.00      0.29      1478
+Quantitative Finance       0.00      0.00      0.00      1493
+          Statistics       0.00      0.00      0.00      1482
+Quantitative Biology       0.00      0.00      0.00      1443
+
+            accuracy                           0.17      8849
+           macro avg       0.03      0.17      0.05      8849
+        weighted avg       0.03      0.17      0.05      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0001, Epochs: 2
+Epoch 1: Average loss: 0.0052
+Epoch 2: Average loss: 0.0032
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.72      0.77      1481
+         Mathematics       0.79      0.86      0.83      1472
+             Physics       0.94      0.90      0.92      1478
+Quantitative Finance       0.91      0.90      0.90      1493
+          Statistics       0.75      0.75      0.75      1482
+Quantitative Biology       0.83      0.90      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0001, Epochs: 3
+Epoch 1: Average loss: 0.0053
+Epoch 2: Average loss: 0.0032
+Epoch 3: Average loss: 0.0023
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.82      0.75      0.78      1481
+         Mathematics       0.80      0.85      0.83      1472
+             Physics       0.92      0.90      0.91      1478
+Quantitative Finance       0.88      0.91      0.89      1493
+          Statistics       0.81      0.72      0.76      1482
+Quantitative Biology       0.82      0.90      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 0.0001, Epochs: 4
+Epoch 1: Average loss: 0.0052
+Epoch 2: Average loss: 0.0031
+Epoch 3: Average loss: 0.0023
+Epoch 4: Average loss: 0.0016
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.71      0.84      0.77      1481
+         Mathematics       0.87      0.79      0.83      1472
+             Physics       0.92      0.89      0.90      1478
+Quantitative Finance       0.88      0.89      0.89      1493
+          Statistics       0.74      0.80      0.77      1482
+Quantitative Biology       0.91      0.75      0.82      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.84      0.83      0.83      8849
+        weighted avg       0.84      0.83      0.83      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 5e-05, Epochs: 2
+Epoch 1: Average loss: 0.0055
+Epoch 2: Average loss: 0.0033
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.79      0.79      0.79      1481
+         Mathematics       0.83      0.85      0.84      1472
+             Physics       0.92      0.91      0.92      1478
+Quantitative Finance       0.89      0.91      0.90      1493
+          Statistics       0.81      0.74      0.77      1482
+Quantitative Biology       0.85      0.89      0.87      1443
+
+            accuracy                           0.85      8849
+           macro avg       0.85      0.85      0.85      8849
+        weighted avg       0.85      0.85      0.85      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 5e-05, Epochs: 3
+Epoch 1: Average loss: 0.0055
+Epoch 2: Average loss: 0.0033
+Epoch 3: Average loss: 0.0024
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.80      0.79      0.80      1481
+         Mathematics       0.83      0.83      0.83      1472
+             Physics       0.94      0.89      0.91      1478
+Quantitative Finance       0.90      0.90      0.90      1493
+          Statistics       0.77      0.78      0.78      1482
+Quantitative Biology       0.84      0.89      0.87      1443
+
+            accuracy                           0.85      8849
+           macro avg       0.85      0.85      0.85      8849
+        weighted avg       0.85      0.85      0.85      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 5e-05, Epochs: 4
+Epoch 1: Average loss: 0.0056
+Epoch 2: Average loss: 0.0032
+Epoch 3: Average loss: 0.0023
+Epoch 4: Average loss: 0.0016
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.83      0.74      0.78      1481
+         Mathematics       0.84      0.84      0.84      1472
+             Physics       0.96      0.87      0.91      1478
+Quantitative Finance       0.86      0.91      0.89      1493
+          Statistics       0.73      0.80      0.76      1482
+Quantitative Biology       0.84      0.89      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.84      0.84      0.84      8849
+        weighted avg       0.84      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 3e-05, Epochs: 2
+Epoch 1: Average loss: 0.0060
+Epoch 2: Average loss: 0.0034
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.77      0.82      0.80      1481
+         Mathematics       0.85      0.82      0.84      1472
+             Physics       0.95      0.89      0.91      1478
+Quantitative Finance       0.87      0.92      0.89      1493
+          Statistics       0.80      0.73      0.77      1482
+Quantitative Biology       0.84      0.89      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 3e-05, Epochs: 3
+Epoch 1: Average loss: 0.0061
+Epoch 2: Average loss: 0.0034
+Epoch 3: Average loss: 0.0026
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.84      0.73      0.78      1481
+         Mathematics       0.83      0.84      0.84      1472
+             Physics       0.96      0.87      0.91      1478
+Quantitative Finance       0.82      0.93      0.87      1493
+          Statistics       0.71      0.81      0.76      1482
+Quantitative Biology       0.89      0.82      0.86      1443
+
+            accuracy                           0.83      8849
+           macro avg       0.84      0.83      0.84      8849
+        weighted avg       0.84      0.83      0.84      8849
+
+==================================================
+Training with Batch Size: 128, Learning Rate: 3e-05, Epochs: 4
+Epoch 1: Average loss: 0.0060
+Epoch 2: Average loss: 0.0034
+Epoch 3: Average loss: 0.0026
+Epoch 4: Average loss: 0.0019
+Testing...
+                      precision    recall  f1-score   support
+
+    Computer Science       0.81      0.77      0.79      1481
+         Mathematics       0.88      0.81      0.84      1472
+             Physics       0.96      0.86      0.91      1478
+Quantitative Finance       0.90      0.90      0.90      1493
+          Statistics       0.73      0.81      0.77      1482
+Quantitative Biology       0.81      0.91      0.86      1443
+
+            accuracy                           0.84      8849
+           macro avg       0.85      0.84      0.84      8849
+        weighted avg       0.85      0.84      0.84      8849
+
+==================================================
