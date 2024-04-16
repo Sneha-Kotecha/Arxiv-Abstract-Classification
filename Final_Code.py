@@ -108,7 +108,7 @@ NUM_PAPERS = 1000000
 
 import json
 
-def load_arxiv_data(dataset_path="/Users/snehakotecha/Desktop/Oxford/Introduction to NLP/Summative /arxiv-metadata-oai-snapshot.json", num_papers=None):
+def load_arxiv_data(dataset_path="/Users/Introduction to NLP/Summative /arxiv-metadata-oai-snapshot.json", num_papers=None):
     """Loads arXiv metadata from a JSON file.
 
     Args:
