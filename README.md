@@ -1,6 +1,5 @@
-# Introduction_To_NLP
 
-## ArXiv Data Classification
+# ArXiv Data Classification
 
 This project aims to classify research papers from the ArXiv repository based on their abstracts. The classification is performed using machine learning techniques, specifically Natural Language Processing (NLP) and deep learning models.
 
